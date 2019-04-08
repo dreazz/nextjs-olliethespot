@@ -1,17 +1,11 @@
 import Link from "next/link";
-import Header from "../components/header";
+import Form from "../components/Form";
+import react from "react";
+
+
 
 function Index() {
-  return (
-    <main>
-      <Header />
-      <section>
-        <Link href="/about">
-          <a>Go to About Me</a>
-        </Link>
-      </section>
-    </main>
-  );
+  return <div><Link href="/map"> Map </Link></div>
 }
 
 export default Index;
